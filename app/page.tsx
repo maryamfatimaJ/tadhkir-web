@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
-          <FeatureCard 
+        <FeatureCard 
             title="Prayer Tracker" 
             description="Track your daily prayers and monitor your consistency"
             href="/prayer-tracker"
