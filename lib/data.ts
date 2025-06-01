@@ -45,7 +45,43 @@ export const dailyAyat: Ayat[] = [
     translation: "For indeed, with hardship comes ease",
     explanation: "This beautiful verse reminds us that after every difficulty comes relief. It teaches us to remain hopeful during challenging times.",
     tags: ["hope", "ease", "difficulty"]
-  }
+  },
+  {
+  id: 6,
+  surah: "At-Talaq",
+  ayatNumber: 2,
+  arabicText: "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًۭا",
+  translation: "And whoever fears Allah - He will make for him a way out.",
+  explanation: "Having Taqwa (God-consciousness) ensures Allah provides solutions from where we cannot imagine.",
+  tags: ["taqwa", "hope", "solution"]
+},
+{
+  id: 7,
+  surah: "Al-Imran",
+  ayatNumber: 139,
+  arabicText: "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ",
+  translation: "So do not weaken and do not grieve, and you will be superior if you are [true] believers.",
+  explanation: "Allah encourages the believers not to lose heart or be sad. True belief gives strength.",
+  tags: ["strength", "faith", "motivation"]
+},
+{
+  id: 8,
+  surah: "Al-Baqarah",
+  ayatNumber: 153,
+  arabicText: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ",
+  translation: "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.",
+  explanation: "Allah assures His support to those who endure hardship with patience and turn to Him in prayer.",
+  tags: ["sabr", "prayer", "support"]
+},
+{
+  id: 9,
+  surah: "Al-Baqarah",
+  ayatNumber: 45,
+  arabicText: "وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى الْخَاشِعِينَ",
+  translation: "And indeed, it is difficult except for the humbly submissive [to Allah].",
+  explanation: "Facing life’s tests is hard, but submission to Allah brings peace and strength.",
+  tags: ["humility", "submission", "tests"]
+},
 ];
 
 export const dailyIntentions: Intention[] = [
@@ -97,7 +133,7 @@ export const virtueActions: VirtueAction[] = [
   {
     id: "jamaat",
     name: "Prayer in Congregation",
-    points: 10,
+    points: 12,
     description: "Pray in congregation at the mosque",
     icon: "users"
   },
@@ -118,7 +154,7 @@ export const virtueActions: VirtueAction[] = [
   {
     id: "sadaqah",
     name: "Charity",
-    points: 1,
+    points: 10,
     description: "Give sadaqah (charity)",
     icon: "heart"
   },

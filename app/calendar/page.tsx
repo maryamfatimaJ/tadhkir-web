@@ -82,7 +82,7 @@ export default function CalendarPage() {
             </CardTitle>
             <CardDescription>
               {selectedEvent ? (
-                <Badge variant="outline\" className="mt-1">
+                <Badge variant="outline" className="mt-1">
                   {selectedEvent.name}
                 </Badge>
               ) : "No Islamic events on this date"}

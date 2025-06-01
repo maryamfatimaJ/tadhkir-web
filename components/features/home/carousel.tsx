@@ -6,19 +6,19 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
-    image: "/assets/homepage.jpg",
+    image: "/homepage.jpg",
     title: "Verily, with hardship comes ease",
     subtitle: "Quran 94:6",
   },
   {
-    image: "/assets/kaaba2.jpg",
+    image: "/home2.jpg",
     title: "And when My servants ask you concerning Me - indeed I am near",
     subtitle: "Quran 2:186",
   },
   {
-    image: "https://images.pexels.com/photos/14968947/pexels-photo-14968947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    title: "Indeed, Allah is with the patient",
-    subtitle: "Quran 2:153",
+    image: "/homepage2.jpg",
+     title: "And indeed, We found you lost, and We guided you.",
+    subtitle: "Quran 93:7",
   },
 ];
 
