@@ -19,46 +19,47 @@ export default function Home() {
         </p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
-          <FeatureCard 
+        <FeatureCard 
             title="Prayer Tracker" 
             description="Track your daily prayers and monitor your consistency"
             href="/prayer-tracker"
-            imageUrl="https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="\pngtree-muslim-praying-namaz-picture-image_15436955.jpg"
           />
           
           <FeatureCard 
             title="Habit Tracker" 
             description="Build and maintain beneficial Islamic habits"
             href="/habit-tracker"
-            imageUrl="https://images.pexels.com/photos/7648332/pexels-photo-7648332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="\habit.jpg"
+          
           />
           
           <FeatureCard 
             title="Daily Ayat" 
             description="Receive daily wisdom from the Quran with translations"
             href="/daily-ayat"
-            imageUrl="https://images.pexels.com/photos/8108063/pexels-photo-8108063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="\daily-ayat.jpg"
           />
           
           <FeatureCard 
             title="Tasbeeh Counter" 
             description="Digital dhikr counter for your daily remembrance"
             href="/tasbeeh"
-            imageUrl="https://images.pexels.com/photos/6146970/pexels-photo-6146970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="\tasbeeh.jpg"
           />
           
           <FeatureCard 
             title="Intention Setter" 
             description="Set your daily intention for spiritual growth"
             href="/intention"
-            imageUrl="https://images.pexels.com/photos/3214958/pexels-photo-3214958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="\intention.jpg"
           />
-          
-          <FeatureCard 
+
+            <FeatureCard 
             title="Virtue Points" 
             description="Gamify your spiritual journey with rewards"
             href="/virtue-points"
-            imageUrl="https://images.pexels.com/photos/4710893/pexels-photo-4710893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            imageUrl="\virtue.jpg"
           />
         </div>
       </section>
